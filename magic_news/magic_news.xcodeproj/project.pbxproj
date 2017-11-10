@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5131E1701FB530870022522E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5131E16F1FB530870022522E /* main.m */; };
+		5131E1731FB530870022522E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5131E1721FB530870022522E /* AppDelegate.m */; };
+		5131E1761FB530870022522E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5131E1751FB530870022522E /* ViewController.m */; };
+		5131E1791FB530870022522E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5131E1771FB530870022522E /* Main.storyboard */; };
+		5131E17B1FB530870022522E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5131E17A1FB530870022522E /* Assets.xcassets */; };
+		5131E17E1FB530870022522E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5131E17C1FB530870022522E /* LaunchScreen.storyboard */; };
+		5131E1891FB530870022522E /* magic_newsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5131E1881FB530870022522E /* magic_newsTests.m */; };
+		5131E1941FB530870022522E /* magic_newsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5131E1931FB530870022522E /* magic_newsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5131E1851FB530870022522E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5131E1631FB530870022522E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5131E16A1FB530870022522E;
+			remoteInfo = magic_news;
+		};
+		5131E1901FB530870022522E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5131E1631FB530870022522E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5131E16A1FB530870022522E;
+			remoteInfo = magic_news;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5131E16B1FB530870022522E /* magic_news.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = magic_news.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5131E16F1FB530870022522E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5131E1711FB530870022522E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5131E1721FB530870022522E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5131E1741FB530870022522E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5131E1751FB530870022522E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5131E1781FB530870022522E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5131E17A1FB530870022522E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5131E17D1FB530870022522E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5131E17F1FB530870022522E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5131E1841FB530870022522E /* magic_newsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magic_newsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5131E1881FB530870022522E /* magic_newsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = magic_newsTests.m; sourceTree = "<group>"; };
+		5131E18A1FB530870022522E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5131E18F1FB530870022522E /* magic_newsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magic_newsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5131E1931FB530870022522E /* magic_newsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = magic_newsUITests.m; sourceTree = "<group>"; };
+		5131E1951FB530870022522E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5131E1681FB530870022522E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5131E1811FB530870022522E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5131E18C1FB530870022522E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5131E1621FB530870022522E = {
+			isa = PBXGroup;
+			children = (
+				5131E16D1FB530870022522E /* magic_news */,
+				5131E1871FB530870022522E /* magic_newsTests */,
+				5131E1921FB530870022522E /* magic_newsUITests */,
+				5131E16C1FB530870022522E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5131E16C1FB530870022522E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5131E16B1FB530870022522E /* magic_news.app */,
+				5131E1841FB530870022522E /* magic_newsTests.xctest */,
+				5131E18F1FB530870022522E /* magic_newsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5131E16D1FB530870022522E /* magic_news */ = {
+			isa = PBXGroup;
+			children = (
+				5131E1711FB530870022522E /* AppDelegate.h */,
+				5131E1721FB530870022522E /* AppDelegate.m */,
+				5131E1741FB530870022522E /* ViewController.h */,
+				5131E1751FB530870022522E /* ViewController.m */,
+				5131E1771FB530870022522E /* Main.storyboard */,
+				5131E17A1FB530870022522E /* Assets.xcassets */,
+				5131E17C1FB530870022522E /* LaunchScreen.storyboard */,
+				5131E17F1FB530870022522E /* Info.plist */,
+				5131E16E1FB530870022522E /* Supporting Files */,
+			);
+			path = magic_news;
+			sourceTree = "<group>";
+		};
+		5131E16E1FB530870022522E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5131E16F1FB530870022522E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5131E1871FB530870022522E /* magic_newsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5131E1881FB530870022522E /* magic_newsTests.m */,
+				5131E18A1FB530870022522E /* Info.plist */,
+			);
+			path = magic_newsTests;
+			sourceTree = "<group>";
+		};
+		5131E1921FB530870022522E /* magic_newsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5131E1931FB530870022522E /* magic_newsUITests.m */,
+				5131E1951FB530870022522E /* Info.plist */,
+			);
+			path = magic_newsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5131E16A1FB530870022522E /* magic_news */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5131E1981FB530870022522E /* Build configuration list for PBXNativeTarget "magic_news" */;
+			buildPhases = (
+				5131E1671FB530870022522E /* Sources */,
+				5131E1681FB530870022522E /* Frameworks */,
+				5131E1691FB530870022522E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = magic_news;
+			productName = magic_news;
+			productReference = 5131E16B1FB530870022522E /* magic_news.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5131E1831FB530870022522E /* magic_newsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5131E19B1FB530870022522E /* Build configuration list for PBXNativeTarget "magic_newsTests" */;
+			buildPhases = (
+				5131E1801FB530870022522E /* Sources */,
+				5131E1811FB530870022522E /* Frameworks */,
+				5131E1821FB530870022522E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5131E1861FB530870022522E /* PBXTargetDependency */,
+			);
+			name = magic_newsTests;
+			productName = magic_newsTests;
+			productReference = 5131E1841FB530870022522E /* magic_newsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5131E18E1FB530870022522E /* magic_newsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5131E19E1FB530870022522E /* Build configuration list for PBXNativeTarget "magic_newsUITests" */;
+			buildPhases = (
+				5131E18B1FB530870022522E /* Sources */,
+				5131E18C1FB530870022522E /* Frameworks */,
+				5131E18D1FB530870022522E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5131E1911FB530870022522E /* PBXTargetDependency */,
+			);
+			name = magic_newsUITests;
+			productName = magic_newsUITests;
+			productReference = 5131E18F1FB530870022522E /* magic_newsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5131E1631FB530870022522E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = magic;
+				TargetAttributes = {
+					5131E16A1FB530870022522E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5131E1831FB530870022522E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5131E16A1FB530870022522E;
+					};
+					5131E18E1FB530870022522E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5131E16A1FB530870022522E;
+					};
+				};
+			};
+			buildConfigurationList = 5131E1661FB530870022522E /* Build configuration list for PBXProject "magic_news" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5131E1621FB530870022522E;
+			productRefGroup = 5131E16C1FB530870022522E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5131E16A1FB530870022522E /* magic_news */,
+				5131E1831FB530870022522E /* magic_newsTests */,
+				5131E18E1FB530870022522E /* magic_newsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5131E1691FB530870022522E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5131E17E1FB530870022522E /* LaunchScreen.storyboard in Resources */,
+				5131E17B1FB530870022522E /* Assets.xcassets in Resources */,
+				5131E1791FB530870022522E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5131E1821FB530870022522E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5131E18D1FB530870022522E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5131E1671FB530870022522E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5131E1761FB530870022522E /* ViewController.m in Sources */,
+				5131E1731FB530870022522E /* AppDelegate.m in Sources */,
+				5131E1701FB530870022522E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5131E1801FB530870022522E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5131E1891FB530870022522E /* magic_newsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5131E18B1FB530870022522E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5131E1941FB530870022522E /* magic_newsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5131E1861FB530870022522E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5131E16A1FB530870022522E /* magic_news */;
+			targetProxy = 5131E1851FB530870022522E /* PBXContainerItemProxy */;
+		};
+		5131E1911FB530870022522E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5131E16A1FB530870022522E /* magic_news */;
+			targetProxy = 5131E1901FB530870022522E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5131E1771FB530870022522E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5131E1781FB530870022522E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5131E17C1FB530870022522E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5131E17D1FB530870022522E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5131E1961FB530870022522E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5131E1971FB530870022522E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5131E1991FB530870022522E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = magic_news/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magic.magic-news";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5131E19A1FB530870022522E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = magic_news/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magic.magic-news";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5131E19C1FB530870022522E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = magic_newsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magic.magic-newsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/magic_news.app/magic_news";
+			};
+			name = Debug;
+		};
+		5131E19D1FB530870022522E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = magic_newsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magic.magic-newsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/magic_news.app/magic_news";
+			};
+			name = Release;
+		};
+		5131E19F1FB530870022522E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = magic_newsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magic.magic-newsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = magic_news;
+			};
+			name = Debug;
+		};
+		5131E1A01FB530870022522E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = magic_newsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magic.magic-newsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = magic_news;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5131E1661FB530870022522E /* Build configuration list for PBXProject "magic_news" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5131E1961FB530870022522E /* Debug */,
+				5131E1971FB530870022522E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5131E1981FB530870022522E /* Build configuration list for PBXNativeTarget "magic_news" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5131E1991FB530870022522E /* Debug */,
+				5131E19A1FB530870022522E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5131E19B1FB530870022522E /* Build configuration list for PBXNativeTarget "magic_newsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5131E19C1FB530870022522E /* Debug */,
+				5131E19D1FB530870022522E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5131E19E1FB530870022522E /* Build configuration list for PBXNativeTarget "magic_newsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5131E19F1FB530870022522E /* Debug */,
+				5131E1A01FB530870022522E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5131E1631FB530870022522E /* Project object */;
+}
